@@ -31,4 +31,10 @@ public class SysUserController {
 
     }
 
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+
+    }
+
 }
